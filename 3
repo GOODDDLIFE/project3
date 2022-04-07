@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+
+int main() {
+   char a = 0;
+   for (int i = 0; i < 5; i++) {
+      printf("소문자를 입력하시오\n");
+      scanf(" %c", &a);
+      a -= 32;
+      printf("대문자는 %c \n", a);
+   
+   }
+   return 0;
+}
